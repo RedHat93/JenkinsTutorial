@@ -9,6 +9,7 @@ pipeline {
                 sh 'echo "Hello World"'
                 sh '''
                 echo "Multiline shell works too"
+                echo "ciao"
                 ls -ls
                 '''
             }
